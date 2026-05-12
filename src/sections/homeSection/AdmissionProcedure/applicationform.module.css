@@ -1,0 +1,274 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 18px;
+  padding: 50px 60px;
+}
+
+
+.sectionTitle {
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 36px;
+  margin-top: 10px;
+}
+
+
+.formrow {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.full {
+  grid-column: span 2;
+}
+
+
+.wrapper :global(.MuiOutlinedInput-root) {
+  border-radius: 12px;
+  background: #f3f6fb;
+}
+
+.wrapper :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: #e3e8ef;
+}
+
+.wrapper :global(.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline) {
+  border-color: #c9d4e5;
+}
+
+.wrapper :global(.Mui-focused .MuiOutlinedInput-notchedOutline) {
+  border-color: #2f6fed !important;
+  border-width: 1.5px;
+}
+
+
+.wrapper :global(.MuiFormControlLabel-label) {
+  font-size: 14px;
+}
+
+
+.nextBtn {
+  background: #2f6fed !important;
+  padding: 13px 42px !important;
+  border-radius: 28px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  box-shadow: 0 8px 18px rgba(47, 111, 237, 0.25);
+  transition: all 0.25s ease;
+}
+
+.nextBtn:hover {
+  background: #1f57c7 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(47, 111, 237, 0.3);
+}
+.successContainer{
+height:60vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:20px;
+text-align:center;
+}
+
+.successIcon{
+font-size:80px !important;
+color:#4CAF50;
+}
+
+.modalMainTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+ text-decoration: underline;
+ margin-top: 30px;
+}
+
+.modalHeading {
+  font-weight: 600;
+  margin-top: 30px;
+  font-size: 1rem;
+
+}
+
+.modalPara {
+  color: #444;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 60px 0;
+  }
+
+  .wrapper {
+    width: 92%;
+    padding: 30px 18px;
+    border-radius: 14px;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .full {
+    grid-column: span 1;
+  }
+
+
+  .formrow {
+    width: 100%;
+  }
+
+  .formrow :global(.react-tel-input) {
+    width: 100%;
+  }
+
+  .formrow :global(.react-tel-input .form-control) {
+    width: 100% !important;
+  }
+
+  
+  .sectionTitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+
+  .nextBtn {
+    width: 100%;
+    padding: 12px 0 !important;
+  }
+ .wrapper :global(.MuiStepper-root) {
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+
+ .wrapper :global(.MuiStepLabel-label) {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .wrapper :global(.MuiStepConnector-line) {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+    padding: 80px 0;
+  }
+
+  .wrapper {
+    width: 94%;
+    padding: 40px 28px;
+    border-radius: 16px;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  
+  .full {
+    grid-column: span 1;
+  }
+
+ 
+  .sectionTitle {
+    font-size: 17px;
+    margin-bottom: 22px;
+  }
+
+  .wrapper :global(.MuiStepLabel-label) {
+    font-size: 13px;
+  }
+
+  .nextBtn {
+    padding: 12px 34px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .container {
+    padding: 90px 0;
+  }
+
+  .wrapper {
+    width: 92%;
+    padding: 45px 40px;
+    border-radius: 18px;
+  }
+
+ 
+  .form {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 28px;
+  }
+
+  .full {
+    grid-column: span 2;
+  }
+  .sectionTitle {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  
+  .wrapper :global(.MuiStepLabel-label) {
+    font-size: 14px;
+  }
+
+  
+  .nextBtn {
+    padding: 13px 38px !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    padding: 100px 0;
+  }
+  .wrapper {
+    width: 90%;
+    padding: 50px 55px;
+    border-radius: 18px;
+  }
+  .form {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 32px;
+  }
+  .full {
+    grid-column: span 2;
+  }
+  .sectionTitle {
+    font-size: 18px;
+    margin-bottom: 26px;
+  }
+  .wrapper :global(.MuiStepLabel-label) {
+    font-size: 15px;
+  }
+  .nextBtn {
+    padding: 14px 42px !important;
+  }
+}

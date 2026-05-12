@@ -5,7 +5,7 @@ import Head from "next/head";
 import ProgramHero from "../../../sections/programSection/ProgramHero/ProgramHero";
 import ProgramStructure from "../../../sections/programSection/ProgramStructure/ProgramStructure";
 import LearningOutcome from "../../../sections/programSection/learningprocess/LearningOutcome";
-import StudentPlaced from "../../../sections/programSection/studentplaced/StudentPlaced";
+import StudentPlaced from "../../../sections/programSection/studentplaced/StudentPlaced"; 
 
 
 const Fullstack = () => {

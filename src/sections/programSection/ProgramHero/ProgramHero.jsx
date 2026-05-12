@@ -14,7 +14,7 @@ const ProgramHero = () => {
       <div className={styles.wrapper}>
         <div className={styles.content}>
           <p className={`${styles.title} ${styles.title1}`}>
-            Diploma In <span>UI/UX Design</span>
+            Diploma In <span>Full Stack</span>
           </p>
           <p className={styles.title2}>
             The Diploma in UI/UX Design is a comprehensive, hands-on program
@@ -30,7 +30,7 @@ const ProgramHero = () => {
           >
             Request Call Back
           </p>
-          <div className={styles.position1}>
+          {/* <div className={styles.position1}>
             <div className={styles.position}>
               <div className={styles.img1}>
                 <img src={img1.src} alt="img" />
@@ -39,8 +39,8 @@ const ProgramHero = () => {
                 <img src={img11.src} alt="img" />
               </div>
             </div>
-          </div>
-          <div className={styles.position11}>
+          </div> */}
+          {/* <div className={styles.position11}>
             <div className={styles.position}>
               <div className={`${styles.img1} ${styles.imgSecond}`}>
                 <img src={img2.src} alt="img" />
@@ -49,7 +49,7 @@ const ProgramHero = () => {
                 <img src={img22.src} alt="img" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <ContactModal open={openModal} onClose={() => setOpenModal(false)} />

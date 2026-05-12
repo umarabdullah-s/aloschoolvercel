@@ -48,7 +48,7 @@ const ProgramHero = () => {
               <div className={styles.img22}>
                 <img src={img22.src} alt="img" />
               </div>
-            </div>
+            </div>  
           </div> */}
         </div>
       </div>

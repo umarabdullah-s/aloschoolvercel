@@ -2,10 +2,10 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 
 
-import ProgramHero from "@/sections/fullstack/programSection/ProgramHero/ProgramHero";
-import ProgramStructure from "@/sections/fullstack/programSection/ProgramStructure/ProgramStructure";
-import LearningOutcome from "@/sections/fullstack/programSection/learningprocess/LearningOutcome";
-import StudentPlaced from "@/sections/fullstack/programSection/studentplaced/StudentPlaced";
+import ProgramHero from "../../../sections/programSection/ProgramHero/ProgramHero";
+import ProgramStructure from "../../../sections/programSection/ProgramStructure/ProgramStructure";
+import LearningOutcome from "../../../sections/programSection/learningprocess/LearningOutcome";
+import StudentPlaced from "../../../sections/programSection/studentplaced/StudentPlaced";
 
 
 const Fullstack = () => {
